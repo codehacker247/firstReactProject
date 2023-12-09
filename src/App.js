@@ -25,6 +25,7 @@ export default function App() {
     </div>
   );
 }
+
 function Message(props) {
   return (
     <p>
