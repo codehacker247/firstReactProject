@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./AppStyle.css";
 
 export default function App() {
   const [advice, setAdvice] = useState("");
@@ -17,8 +18,8 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Hellow!</h1>
+    <div className="app">
+      <h1>Hellow! Have a happy day:)</h1>
       <h2>{advice}</h2>
       <button onClick={getAdvice}>Get advice!</button>
       <Message count={count} />
