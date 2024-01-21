@@ -18,7 +18,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app advice-container">
       <h1>Hellow! Have a happy day:)</h1>
       <h2>{advice}</h2>
       <button onClick={getAdvice}>Get advice!</button>
